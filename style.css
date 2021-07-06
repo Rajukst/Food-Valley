@@ -1,0 +1,98 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.flexiable-container{
+    display: flex;
+}
+/* 1st section style started */
+.wellcome-h1{
+    font-size: 65px;
+}
+.mySpan{
+    color: orange;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size: 55px;
+}
+.Advertisement{
+    font-size: 50px;
+}
+.Top-section{
+
+    margin: 5px;
+    padding:10px;
+
+}
+.top-div{
+    width: 50%;
+    padding-right: 2%;
+    
+}
+.top-div img{
+    width: 80%;
+    padding-left: 10%;
+}
+.para{
+    text-align: justify;
+    padding-bottom: 5%;
+    padding-right: 20px;
+}
+.link{
+    font-size: 18px;
+    text-decoration: none;
+    padding: 15px 25px;
+    margin-left: 5%;
+    background-image: linear-gradient(orange, red);
+    color: white;
+    border-radius: 25px;
+} /* 1st section style ended*/
+
+.middle-banner{
+    display: flex;
+    margin: 5px;
+    padding:10px;
+    background-image: url(Images/7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.About-us{
+width: 50%;
+}
+.About-us img{
+    width: 70%;
+    margin:0;
+    padding: 0;
+}
+.flex-container{
+    display: flex;
+}
+
+.link1{
+    font-size: 18px;
+    text-decoration: none;
+    padding: 15px 25px;
+    
+    margin-top: 15%;
+    background-image: linear-gradient(orange, red);
+    color: white;
+    border-radius: 25px;
+}
+.recipi-one{
+    margin: 30px;
+    padding: 30px;
+    box-shadow:10px 15px 30px 8px gray;
+    border-radius: 20px;
+}
+.recipi-one img{
+    width: 100%;
+    height: 50%;
+    background-size: cover;
+    border-radius: 20px;
+}
+.Recipies{
+    align-items: center;
+    justify-content: center;
+}
