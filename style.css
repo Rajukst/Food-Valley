@@ -6,7 +6,7 @@ body{
 .flexiable-container{
     display: flex;
 }
-/* 1st section style started */
+
 .wellcome-h1{
     font-size: 65px;
 }
@@ -47,7 +47,7 @@ body{
     background-image: linear-gradient(orange, red);
     color: white;
     border-radius: 25px;
-} /* 1st section style ended*/
+} 
 
 .middle-banner{
     display: flex;
@@ -68,6 +68,7 @@ width: 50%;
 }
 .flex-container{
     display: flex;
+
 }
 
 .link1{
@@ -92,7 +93,62 @@ width: 50%;
     background-size: cover;
     border-radius: 20px;
 }
-.Recipies{
-    align-items: center;
-    justify-content: center;
+.recipi-details{
+    width: 100%;
+    height: 400px auto;
+    position: relative;
+    text-align: center;
+}
+.recipi-details p{
+    margin-left: 30%;
+    margin-right: 30%;
+}
+.booking-table{
+    height: 400px auto;
+    position: relative;
+    margin-left: 200px;
+}
+#submit{
+    padding: 8px 15px;
+    border-radius: 10px;
+    background-image: linear-gradient(orange, red);
+    font-size: 16px;
+}
+.social-corner{
+    display: flex;
+    margin: 30px;
+    padding: 30px;
+    box-shadow:10px 15px 30px 8px gray;
+    border-radius: 30px;
+}
+.social-corner div{
+    width: 70%;
+    margin: 40px;
+    padding: 40px;
+}
+.social-corner h1{
+    font-size: 50px;
+    font-weight: bolder;
+}
+.food-span{
+    color: orange;
+}
+.vally-span{
+    color: springgreen;
+}
+footer{
+    width: 100%;
+    height: 300px;
+    position: relative;
+    text-align: center;
+    background-color: rgb(17, 0, 255);
+}
+.footer-class{
+margin-top: 50px;
+padding-top: 90px;
+font-size: 60px;
+font-weight: 900;
+}
+.footer-healthy{
+    color: white;
 }
